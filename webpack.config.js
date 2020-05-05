@@ -40,7 +40,12 @@ function getConfig(env){
                 },
                 {
                     test: /\.pug/,
-                    use: "pug-loader"
+                    use: {
+                        loader: "pug-loader",
+                        options: {
+                            root: path.resolve(__dirname, "src")
+                        }
+                    }
                 }
             ]
         },
