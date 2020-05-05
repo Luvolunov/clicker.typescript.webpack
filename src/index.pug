@@ -5,8 +5,13 @@ html(lang="en")
         meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap", rel="stylesheet")
+        meta(name="theme-color", content="#223843")
         title Clicker
-        
     body
-        div#preloader.preloader
-        div#clicker.clicker
+        #preloader.preloader
+            .preloader__content-outer
+                .preloader__spinner-outer
+                    .preloader__spinner
+                .preloader__text
+                    | Загрузка...
+        #clicker.clicker
