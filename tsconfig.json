@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "baseUrl": ".",
+        "noImplicitAny": true,
+        "alwaysStrict": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "diagnostics": true,
+        "paths": {}
+    },
+    "exclude": ["node_modules"]
+}
