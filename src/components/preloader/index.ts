@@ -1,5 +1,5 @@
-import "@luvolunov/ts-preloader-controller/styles/index";
-import { PreloaderController } from "@luvolunov/ts-preloader-controller";
+import "@dev-boost/ts-preloader-controller/styles/index";
+import { PreloaderController } from "@dev-boost/ts-preloader-controller";
 
 const preloader = new PreloaderController();
 

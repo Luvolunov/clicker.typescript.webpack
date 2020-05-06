@@ -37,6 +37,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "@luvolunov/ts-preloader-controller": "^1.2.3"
+    "@dev-boost/ts-preloader-controller": "^1.2.4"
   }
 }
