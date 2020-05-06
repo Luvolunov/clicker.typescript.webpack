@@ -12,7 +12,7 @@ function getConfig(env){
     const config = {
         mode: isProd ? "production": "development",
         entry: {
-            preloader: path.resolve(__dirname, "src/components/preloader/index.ts"),
+            preloader: path.resolve(__dirname, "src/app/preloader/index.ts"),
             index: path.resolve(__dirname, "src/index.ts")            
         },
         output: {
